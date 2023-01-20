@@ -29,7 +29,7 @@ public class Listbox_handle {
 		WebElement year = P.findElement(By.xpath("//select[@id='year']"));
 		//create object of select class
 		Select y=new Select(year);
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		//use select class
 		y.selectByValue("1993");	
 	
